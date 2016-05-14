@@ -1,0 +1,330 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Principal At Risk Notes | JHN8840 | Canadian Callable Equity ROC Principal At Risk Notes, Series 35 (CAD) | BMO Capital Markets - Investor Solutions</title>
+    <meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1" />
+    <meta http-equiv="X-UA-Compatible" content="IE=9; IE=8; IE=7; IE=6; IE=EDGE" />
+    <meta name="description" content="" />
+    <meta name="keywords" content="" />
+    <base href="https://www.bmocm.com/investorsolutions/principal-at-risk-notes/details/" />
+    <link href="//www.bmo.com/css/template.css" rel="stylesheet" type="text/css" />
+    <link href="//www.bmo.com/css/content.css" rel="stylesheet" type="text/css" />
+    <link href="/common/investorsolutions/global-template1.css" rel="stylesheet" type="text/css" />
+    <script type="text/javascript" src="/common/investorsolutions/scripts/bmo_common.js"></script>
+    <script type="text/javascript" src="/common/investorsolutions/scripts/library.js"></script>
+    <script type="text/javascript" src="/common/investorsolutions/scripts/common.js.aspx"></script>
+  </head>
+  
+  <body id="body_bmois">
+    <div id="root_div">
+      <div id="header" class="header">
+        <div id="alternate_text"> <a href="#main_content" title="Jump to content">Skip Navigation</a> </div>
+        <img src="/common/investorsolutions/images/logo.gif" class="logo" alt="" border="0" />
+        <ul id="links">          
+
+          <li><a href="http://www.bmo.com">BMO.com</a>&nbsp;&nbsp;|&nbsp;&nbsp;</li>
+          <li><a href="http://www.bmocm.com">BMOCM.com</a>&nbsp;&nbsp;|&nbsp;&nbsp;</li>
+           <li>
+			<a href="https://www.bmocm.com/investorsolutions/francais/principal-at-risk-notes/details/default.aspx?id=2027">Fran&ccedil;ais</a></li> 
+			
+        </ul>
+        <a href="https://www.bmocm.com/investorsolutions/"><img src="/common/investorsolutions/images/header_site_title.jpg" class="secondary-logo" alt="Investor Solutions" border="0" /></a>
+        <div class="clear"></div>
+      </div><!--header-->
+      <div id="body-topCap"></div>
+      <div id="body-div">
+
+        <div id="topnav">
+          <ul class="topnav_menu">
+            <li id="nav_home"><a href="https://www.bmocm.com/investorsolutions/" title="Home">Home</a></li>
+            <li id="nav_investment_solutions" class="active"><a href="https://www.bmocm.com/investorsolutions/principal-protected-notes/" title="Investment Solutions">Investment Solutions</a></li> 
+            <li id="nav_search_previous_issues"><a href="https://www.bmocm.com/investorsolutions/search/" title="Search Previous Issues">Search Previous Issues</a></li>
+            <li id="nav_contact_us"><a href="https://www.bmocm.com/investorsolutions/contact-us/" title="Contact Us">Contact Us</a></li>
+          </ul>
+        </div>
+
+        <div id="body-3-merged">
+          <div id="body-left">
+            <div style="background-image: url(/common/images/secondary_navigation_header_bg.gif); background-repeat: no-repeat; background-position: 50% bottom; _padding-bottom: 10px;"><div style="padding-bottom: 10px; padding-left: 18px; CLEAR: both; padding-top: 5px; _padding-bottom: 0"><span class="txtToImg"><h2>Investment Solutions</h2></span></div></div>
+            <div style="clear: both"></div>
+            <div class="lnav_lv3_label"><a href="https://www.bmocm.com/investorsolutions/principal-protected-notes/">Principal Protected Notes</a></div>
+            <div class="lnav_dotted"></div>
+            <div class="lnav_lv3_label"><a href="https://www.bmocm.com/investorsolutions/principal-at-risk-notes/">Principal At Risk Notes</a></div>
+            <div class="lnav_dotted"></div>
+            <div class="lnav_lv3_label"><a href="https://www.bmocm.com/investorsolutions/fixed-income-structured-notes/">Fixed Income Structured Notes</a></div>
+            <div class="lnav_dotted"></div>
+            <div class="lnav_lv3_label"><a href="https://www.bmocm.com/investorsolutions/closed-end-funds/">Closed-End Funds</a></div>
+            <div class="lnav_dotted"></div>
+            <div class="lnav_lv3_label"><a href="https://www.bmocm.com/investorsolutions/market-linked-gics/">Market Linked GICs</a></div>
+            <div class="lnav_dotted"></div>
+            <div class="lnav_lv3_label"><a href="http://www.bmobullion.com/canada/gold/default.aspx" target="_blank">Canadian Gold Program</a></div>
+            <div class="lnav_dotted"></div>
+            <div class="lnav_lv3_label"><a href="http://www.bmobullion.com/canada/silver/" target="_blank">Canadian Silver Program</a></div>
+          </div><!--body_div_left-->
+
+          <div id="body-center-large-no-right">
+ 
+		
+        <div class="breadcrumbs">
+
+          		<a href="https://www.bmocm.com/investorsolutions/" class="inactive">Home</a> &gt;
+          			
+          			<!-- </a> &gt; -->
+          
+                        	<a href="/investorsolutions/principal-protected-notes/">Investment Solutions</a> &gt; <a href="/investorsolutions/principal-at-risk-notes/">Principal At Risk Notes</a> &gt;
+                        
+          <span class="active">Details</span> 
+        </div>
+<style>
+	.as_of_date {float: right}
+</style>
+
+
+<style>
+.close-bar{ background-color: white; position: absolute; top: 10px; right: 10px; cursor: pointer; }
+.pdfnotedet { padding-left:5px; }
+img.pdf-icon { vertical-align:middle; }
+</style>
+
+<script type="text/javascript" src="/common/investorsolutions/scripts/overlay.js"></script>
+<link href="/common/investorsolutions/css/is_styles.css" rel="stylesheet" type="text/css" />
+<script type="text/javascript" src="https://www.google.com/jsapi"></script>
+
+<script type="text/javascript">
+    var iwidth;
+    var iheight;
+
+    $(document).ready(function () {
+        $(".dynamic-img").click(function() {
+		img = new Image();
+		img.onload = function() {
+			ratio = this.height / this.width
+			adjusted_width = (this.width < 800 ? this.width : 800)
+			adjusted_height = adjusted_width * ratio
+			openImage(img.src, adjusted_width, adjusted_height);		
+		};
+		img.src = $(this).attr('src');
+		});	
+
+    });
+
+	$(window).load(function() {
+			$(".dynamic-img").each(function() {
+				
+				var theImage = new Image();
+				
+				theImage.src = $(this).attr("src");
+				
+				if ( typeof theImage.width != "undefined" && theImage.width > 32) 
+				{
+					$(this).parents(".automated-graph").show();			
+				}
+			});
+	});
+
+    function getimgwidth() {
+        return iwidth;
+    }
+
+    function getimgheight() {
+        return iheight;
+    }
+	
+</script>
+
+
+
+
+<div class="product-pages">
+<div style="float:right;">
+
+  
+
+  <div style="width:390px;position:relative;height:26px;border:0px solid #000;">
+    <form id="login_id"  method="post" action="https://www.bmocm.com/investorsolutions/login/" >
+      <input type="hidden" name="login" id="login_id" value="Submit" />
+      <input type="text" class="inactive login_field_width" name="dealer_number" id="dealer_number_id" value="Dealer Number" title="Dealer Number" onfocus="active_input(this);" onblur="inactive_input(this);" style="width:97px !important"/>&nbsp;
+      <input type="text" class="inactive login_field_width" name="broker_code" id="broke_code_id" value="Broker/IA Code" title="Broker/IA Code" onfocus="active_input(this);" onblur="inactive_input(this);" style="width:97px !important"/>&nbsp;
+      <input type="password" class="inactive login_field_width" name="password" id="password_id" title="********" value="********" onfocus="active_input(this);" onblur="inactive_input(this);" style="width:90px !important"/>&nbsp;
+      <input class="login-submit" type="submit" alt="Submit" name="submit" value="" onfocus="this.blur();" style="margin-top:-3px !important;background-image: url('/common/investorsolutions/images/btn_sign_in.png');top:0px !important;position:absolute !important; "/>
+    </form>
+    <div class="link relative" style="float:right;padding-top:5px;margin-right:55px;">
+      <span class="forgot-password-link" style="width:200px !important;" >
+        <a href="https://www.bmocm.com/investorsolutions/forgot-password/" >Forgot your password?</a>&nbsp;|&nbsp;
+        <a href="https://www.bmocm.com/investorsolutions/register/">Register</a>
+      </span>
+      
+    </div>
+              
+  </div>
+  
+<br/>
+<div id="font-size-widget" style="width: 180px;float: right;  background: none; border: none;  padding-left: 0px !important;">
+      <span class="text-size-col">Text Size
+        <a href="javascript:BMOFontSize.set('small');" id="text-small-button" title="Small" class="active"></a> 
+        <a href="javascript:BMOFontSize.set('medium');" id="text-medium-button" title="Medium" class=""></a> 
+        <a href="javascript:BMOFontSize.set('large');" id="text-large-button" title="Large" class=""></a>
+      </span>
+      <span class="print-col">Print 
+        <a href="javascript:window.print();" class="print-button" title="Print"></a>
+      </span>
+      <div class="clear"></div>
+    </div>
+
+</div>
+
+
+
+<script type="text/javascript">
+var lang = "en";
+var BMOSearchLabels = new BMO_UI_Search.Search.Dictionary();
+var BMOSearch = new BMO_UI_Search.Search.Widget("home");
+</script>
+
+<script type="text/javascript">
+  var BMOFontSize = new bmoFontSizeWidget(lang);
+</script>
+
+<div class="product-title">
+  <div class="title1" style="font-size:16px;margin-top:-5px;">Principal At Risk Notes</div>
+  <div class="title2" style="width:600px;">Bank of Montreal Canadian Callable Equity ROC Principal At Risk Notes, Series 35 (CAD)</div>
+  <div>
+  <div class="title3 floatLeft">JHN8840</div>
+  
+
+<div class="Clear"></div>
+</div>
+
+</div>
+<div class="clear"></div>
+
+<div class="details">
+  <div class="left">
+   <div class="box"><div class="title">Product Details</div><table><tr class="even"><td class="header">Type</td><td class="content">Callable ROC</td></tr><tr class="odd"><td class="header">Issuer</td><td class="content">Bank of Montreal</td></tr><tr class="even"><td class="header">Class</td><td class="content">Equity</td></tr><tr class="odd"><td class="header">Linked to</td><td class="content">S&P/TSX 60 Index</td></tr><tr class="even"><td class="header">Currency</td><td class="content">CAD</td></tr><tr class="odd"><td class="header">Issue Date</td><td class="content">April 29, 2015</td></tr><tr class="even"><td class="header">Maturity Date</td><td class="content">April 29, 2021</td></tr><tr class="odd"><td class="header">Term</td><td class="content">6.0 Years</td></tr><tr class="even"><td class="header">Principal Repayment</td><td class="content">5.00% Per Annum</td></tr><tr class="odd"><td class="header">Payment Frequency</td><td class="content">Semi-Annual</td></tr><tr class="even"><td class="header">Payment Threshold</td><td class="content">-30.00%</td></tr><tr class="odd"><td class="header">Barrier Protection</td><td class="content">-30.00%</td></tr><tr class="even"><td class="header">Participation Rate</td><td class="content">5.00%</td></tr><tr class="odd"><td class="header">Autocall Level</td><td class="content">115.00%</td></tr><tr class="even"><td class="header">Maximum Payment</td><td class="content"> None </td></tr><tr class="odd"><td class="header">Minimum Payment</td><td class="content">$1.00</td></tr></table><div class="arrow"></div></div>
+
+
+
+    <div class="box related-documents">              
+      <div class="title">Related Documents</div>
+      <div class="body">
+        <div class="en"><strong>English:</strong><ul class="pdf-list"><li><a href="/common/investorsolutions/scripts/getFile.aspx?fileID=24062">Base Shelf Prospectus </a></li><li><a href="/common/investorsolutions/scripts/getFile.aspx?fileID=24058">Investor Brochure </a></li><li><a href="/common/investorsolutions/scripts/getFile.aspx?fileID=24060">Pricing Supplement </a></li></ul></div><div class="fr"><strong>Fran&ccedil;ais:</strong><ul class="pdf-list"><li><a href="/common/investorsolutions/scripts/getFile.aspx?fileID=24063">Base Shelf Prospectus </a></li><li><a href="/common/investorsolutions/scripts/getFile.aspx?fileID=24059">Investor Brochure </a></li><li><a href="/common/investorsolutions/scripts/getFile.aspx?fileID=24061">Pricing Supplement </a></li></ul></div><div class="clear"></div>
+      </div>
+    </div>
+
+  
+  </div>
+
+  <div class="right">
+    <div id="product-description" class="box">
+      <div class="title">Product Description</div>
+      <div class="body">
+      <div style="padding:10px;border:0px solid;">
+        <ul class="redArrows">
+
+          <li>The objective of the Notes is to provide partial repayments of principal on a semi-annual basis while offering contingent protection against a slight to moderate decline in the Reference Index over the term of the Notes. The Principal Amount is not protected under the Notes.</li><li>Issuer: Bank of Montreal</li><li>Medium Term: 6-year term to maturity (subject to the Notes being automatically called by the Bank).</li><li>Reference Index: The S&P/TSX 60 Index (Price Return Version) is a large cap index comprising 60 actively traded</li><li>Canadian companies. The Reference Index is market cap weighted, representing approximately 73% of Canada’s</li><li>equity market capitalization.</li><li>Contingent Partial Principal Repayments: Subject to the occurrence of an Extraordinary Event and the Notes being</li><li>automatically called by the Bank, a holder of Notes will receive semi-annual partial repayments of principal on each</li><li>Principal Repayment Date of 2.50% of the Principal Amount (equivalent to 5.00% per annum) plus 5% of the Index</li><li>Return in excess of 2.50% on each Observation Date after the second Observation Date, provided that in each case</li><li>the Closing Level of the Reference Index is equal to or above the Payment Threshold (i.e., 70% of the Initial Level) on the relevant Observation Date.</li><li>Remaining Principal Balance: Each Principal Repayment will reduce the Principal Amount and adjusted cost base of the Notes during the term of the Notes. Principal Repayments are considered return of capital and do not reflect the return on the Notes (if any). The return on the Notes will be the difference between the Maturity Payment (or Bid Price if sold prior to Maturity) and the Remaining Principal Balance. If the Maturity Payment is less than a</li><li>Holder’s adjusted cost base of the Notes, the Holder will sustain a loss on the Notes. See “Certain Canadian Federal</li><li>Income Tax Considerations” in the Prospectus.</li><li>AutoCall Feature: The Notes will be automatically called by the Bank if the Closing Level of the Reference Index is</li><li>equal to or above the AutoCall Level (i.e., 110% of the Initial Level) on any Observation Date after the second</li><li>Observation Date. If the AutoCall feature is triggered, Holders will receive on the Call Date a Maturity Payment of</li><li>$100.00, together with the Principal Repayment otherwise payable on that date.</li><li>Contingent Protection: If the Index Return is negative, the Principal Amount will be protected so long as the Final</li><li>Level is equal to or above the Barrier Level on the Final Valuation Date. If the Final Level is below the Barrier Level (i.e. 70% of the Initial Level) on the Final Valuation Date, the Maturity Payment will be equal to $100.00 reduced by the actual Index Return (which will be a negative amount equal to the decline in the Reference Index over the term of the Notes) and a Holder may sustain a loss on the Notes.</li><li>Daily secondary market provided by BMO Capital Markets at its discretion (may be subject to an Early Trading Charge of up to 2.50% declining to zero over 180 days after the Issue Date and other limitations as described in the Prospectus).</li><br/>
+      
+        </ul>
+        </div>
+      </div>      
+      <div class="arrow"></div>
+    </div>   
+      
+
+
+  	<!--Product Description Buffer-->    
+    <div style="*width:454px; *height:0px;"></div>    
+    <div class="box boxright"> 
+      <div class="title">Current Status</div>
+      <table>
+<tr class="even"><td class="header">Update as of</td><td class="content">May 13, 2016</td></tr>
+
+        <!--<tr class="odd"><td class="header"><a href="javascript:popup('https://www.bmocm.com/investorsolutions/inception/','550','600');">Return since Inception:</a></td><td class="content"></td></tr>-->
+<tr class="even"><tr class="odd"><td class="header">Remaining Term</td><td class="content">4.96 years</td></tr>
+        <tr class="even"><td class="header">Current ETC</td><td class="content">0.00%</td></tr>
+        <tr class="odd"><td class="header">Current Bid Price <a href="javascript:popup('https://www.bmocm.com/investorsolutions/historical/?fundnum=JHN8840&pro=PARN',650,650);">historical</a> </td><td class="content">$87.49</td></tr>
+      </table>
+      </div>
+
+
+
+
+  </div>
+  <div class="clear"></div>
+
+
+ 
+
+
+
+ 
+
+
+  
+</div>
+
+<div class="clear"></div>
+
+<div class="legal">
+  Bid Price (i) may be subject to an Early Trading Charge (equal to a percentage of the Principal Amount), (ii) on the date of sale may be at a discount from the maturity payment that would be payable if the Principal At Risk Notes were maturing on such date, and (iii) reflects the most recent price available. The Bid Price may fluctuate and/or be adversely affected by a number of factors, including certain factors discussed in the Offering Documents.<br /><br />
+
+  Past performance is not indicative of future performance and returns, if any, will fluctuate with any change in value of the reference asset(s). This information should not be construed as an estimate or forecast of the performance of the reference asset(s) or of the return that a holder may realize.<br /><br />
+
+The above summary and the other material on this website is for information purposes only and does not constitute an offer to sell or a solicitation to purchase Principal At Risk Notes. Investors should read the Base Shelf Prospectus and applicable Prospectus Supplement and/or Pricing Supplement (collectively, the “Offering Documents”) which set out the specific terms and risk factors associated with an investment in the Principal At Risk Notes carefully and discuss the suitability of the Principal At Risk Notes with their investment advisor before making any investment decisions. The offering and sale of Principal At Risk Notes may be prohibited or restricted by laws in certain jurisdictions. Principal At Risk Notes may only be purchased where they may be lawfully offered for sale and only through individuals qualified to sell them. For a copy of the applicable  Offering Documents, click on the link above.<br /><br />
+
+Amounts, if any, paid to holders of Principal At Risk Notes will depend on the performance of the reference asset(s) described in the applicable Offering Documents. Bank of Montreal does not guarantee that holders will receive an amount equal to the amount invested in the Principal At Risk Notes and does not guarantee that any return or distributions will be paid on the Principal At Risk Notes (other than any minimum amount that may be stipulated in the applicable Offering Documents). Since the principal amount of the Principal At Risk Notes will not be guaranteed and will be at risk, holders may not receive any amount at maturity (other than any minimum amount that may be stipulated in the applicable Offering Documents) and holders could lose substantially all of their investment in the Principal At Risk Notes. Please see the Offering Documents for complete details, including the precise formula for determining the return, if any, on a Principal At Risk Note. 
+<br/><br/><br/>
+</div></div>
+
+
+  
+
+    <script>
+        var prodDescHeight = $("#product-description").height();
+        var pdheight = 185;
+
+        if (prodDescHeight <= 188) {
+            $("#product-description .arrow").css("display", "none");
+        }
+        $("#product-description").css("height", pdheight);
+        var prodDescExpanded = false;
+
+        $("#product-description .arrow").click(function () {
+            if (prodDescExpanded) {
+                $("#product-description").animate({ "height": pdheight }, 250, function () {
+                    $("#product-description .arrow").css("background-image", "url('images/arrow-expand.gif')");
+                });
+
+                prodDescExpanded = false;
+            } else {
+                $("#product-description").animate({ "height": prodDescHeight }, 250, function () {
+                    $("#product-description .arrow").css("background-image", "url('images/arrow-contract.gif')");
+                });
+                prodDescExpanded = true;
+            }
+        });
+    </script>
+
+          </div><!--body-center-large-no-right-->
+        </div><!--body-3-merged-padded-->
+
+        <div class="clear"></div>   
+      </div><!--body-div-->          
+      <div id="body-bottomCap"></div>
+      
+      <div id="footer">
+        <ul>
+          <li><a href="javascript:popup('http://www.bmo.com/home/about/banking/privacy-security/our-privacy-code','','');">Privacy</a>&nbsp;&nbsp;|&nbsp;&nbsp;</li>
+          <li><a href="https://www.bmocm.com/investorsolutions/legal/">Legal</a>&nbsp;|&nbsp;</li>
+          <li><a href="javascript:popup('http://www.bmocm.com/security/','','');">Security</a></li>
+        </ul>
+        <img src="//www.bmo.com/orange/images/BMO_Logo.gif" alt="" class="a-member-of-bmofg" />
+      </div><!--footer-->
+      <div class="clear"></div>
+
+    </div><!--root_div-->
+    <script src="/common/investorsolutions/scripts/scripts.js"></script>
+    <script>        var v = {};</script><script src="//csvtr10.bmocm.com/bmocm/zig.js"></script>
+    <script src="/common/investorsolutions/scripts/webAnalytics.js"></script>
+    <noscript><img src="//csvtr10.bmocm.com/bmocm/zag.gif?Log=1& " height="1" alt=""></noscript>	
+  </body>
+</html>
