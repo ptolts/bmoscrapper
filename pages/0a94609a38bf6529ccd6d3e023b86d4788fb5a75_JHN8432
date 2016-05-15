@@ -1,0 +1,82 @@
+
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en">
+  <head>
+    <title>BMO Capital Markets - Investor Solutions</title>
+    <meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1" />
+    <meta http-equiv="X-UA-Compatible" content="IE=9; IE=8; IE=7; IE=6; IE=EDGE" />
+    <link href="/common/investorsolutions/global-template.css" rel="stylesheet" type="text/css" />
+    <link href="//www.bmo.com/css/content.css" rel="stylesheet" type="text/css" />
+    <script type="text/javascript" src="//www.bmo.com/scripts/bmo_common.js"></script>
+    <script type="text/javascript" src="//www.bmo.com/scripts/bmo_custom.js"></script>
+	<link href="/common/investorsolutions/css/is_styles.css" rel="stylesheet" type="text/css" />
+    
+  <script type="text/javascript" src="overlay.js"></script>
+    <script type="text/javascript">
+    	
+        function resize() {
+            $("#hbidprice img").width($(window).width());
+            $("#hbidprice img").height($(window).width() * .67);
+
+            if ($("#hbidprice img").height() <= $(window).height()) {
+                $("#hbidprice img").height($(window).height());
+                $("#hbidprice img").width($(window).height() * 1.5);
+            }
+        }
+        $(document).ready(function () { 
+					resize();
+				});
+				$(window).load(function() {
+					$(".dynamic-img").each(function() {
+						var theImage = new Image();
+						theImage.src = $(this).attr("src");		
+						
+						if ( typeof theImage.width != "undefined" && theImage.width > 32) {
+							$(this).parents(".automated-graph").show();			
+						}
+					});
+				});
+        $(window).resize(function () { resize(); });
+		
+</script>
+    
+    <style>
+		  .popupContent tr.tableHead th{text-align:left;color:#FFF;background-color:#57A9DB;border:1px solid #C3D9E6;border-collapse:collapse;padding:5px;}
+		  .popupContent  td{padding:5px;}
+		  
+      .hbidprice-center{ vertical-align:middle; }
+		  #hbidprice { margin-left: 0; margin-right: 0; }
+		  .dynamic-img-placeholder {
+			margin: 0px auto;
+			overflow-x: scroll;
+			margin-bottom: 20px;
+			}
+		  .dynamic-img {
+			height: 400px;
+			display: block;
+			margin-left: auto;
+			margin-right: auto;
+			cursor: pointer;
+			}
+    </style>
+  </head>
+  <body id="popup" class="bmo english">
+    <div class="popupHeader">
+      <div class="popupLogo"></div>
+      <div class="popupLogoSecondary"></div>
+      <a href="javascript:window.self.close();" title="Close" class="popupClose"></a>
+    </div>
+    <div class="popupContent">
+
+
+<h1>Bank of Montreal Canadian Q-Model Principal At Risk Notes, Series 51A</h1>
+
+
+Historical Prices &amp; Coupons are as of the close of business for any given day. <br><br><table style="background:#E9F0F8;width:100%;"><tr class="tableHead"><th>Date</th><th>Historical Bid Price</th><th>Distribution</th></tr><td class="alternateRow">May 13, 2016</td><td class="alternateRow">$106.30</td><td class="alternateRow">0.0000</td></tr><td class="alternateRow1">May 12, 2016</td><td class="alternateRow1">$106.75</td><td class="alternateRow1">0.0000</td></tr><td class="alternateRow">May 11, 2016</td><td class="alternateRow">$106.21</td><td class="alternateRow">0.0000</td></tr><td class="alternateRow1">May 10, 2016</td><td class="alternateRow1">$106.18</td><td class="alternateRow1">0.0000</td></tr><td class="alternateRow">May 09, 2016</td><td class="alternateRow">$106.32</td><td class="alternateRow">0.0000</td></tr><td class="alternateRow1">May 06, 2016</td><td class="alternateRow1">$105.61</td><td class="alternateRow1">0.0000</td></tr><td class="alternateRow">May 05, 2016</td><td class="alternateRow">$105.91</td><td class="alternateRow">0.0000</td></tr><td class="alternateRow1">May 04, 2016</td><td class="alternateRow1">$106.38</td><td class="alternateRow1">0.0000</td></tr><td class="alternateRow">May 03, 2016</td><td class="alternateRow">$107.59</td><td class="alternateRow">0.0000</td></tr><td class="alternateRow1">May 02, 2016</td><td class="alternateRow1">$110.36</td><td class="alternateRow1">0.0000</td></tr><td class="alternateRow">Apr 29, 2016</td><td class="alternateRow">$110.48</td><td class="alternateRow">0.0000</td></tr><td class="alternateRow1">Apr 28, 2016</td><td class="alternateRow1">$110.72</td><td class="alternateRow1">0.0000</td></tr><td class="alternateRow">Apr 27, 2016</td><td class="alternateRow">$111.25</td><td class="alternateRow">0.0000</td></tr><td class="alternateRow1">Apr 26, 2016</td><td class="alternateRow1">$111.02</td><td class="alternateRow1">0.0000</td></tr><td class="alternateRow">Apr 25, 2016</td><td class="alternateRow">$110.76</td><td class="alternateRow">0.0000</td></tr><td class="alternateRow1">Apr 22, 2016</td><td class="alternateRow1">$111.12</td><td class="alternateRow1">0.0000</td></tr><td class="alternateRow">Apr 21, 2016</td><td class="alternateRow">$111.27</td><td class="alternateRow">0.0000</td></tr><td class="alternateRow1">Apr 20, 2016</td><td class="alternateRow1">$111.90</td><td class="alternateRow1">0.0000</td></tr><td class="alternateRow">Apr 19, 2016</td><td class="alternateRow">$110.67</td><td class="alternateRow">0.0000</td></tr><td class="alternateRow1">Apr 18, 2016</td><td class="alternateRow1">$109.90</td><td class="alternateRow1">0.0000</td></tr><td class="alternateRow">Apr 15, 2016</td><td class="alternateRow">$109.20</td><td class="alternateRow">0.0000</td></tr><td class="alternateRow1">Apr 14, 2016</td><td class="alternateRow1">$109.25</td><td class="alternateRow1">0.0000</td></tr><td class="alternateRow">Apr 13, 2016</td><td class="alternateRow">$108.63</td><td class="alternateRow">0.0000</td></tr><td class="alternateRow1">Apr 12, 2016</td><td class="alternateRow1">$107.34</td><td class="alternateRow1">0.0000</td></tr><td class="alternateRow">Apr 11, 2016</td><td class="alternateRow">$106.33</td><td class="alternateRow">0.0000</td></tr><td class="alternateRow1">Apr 08, 2016</td><td class="alternateRow1">$106.50</td><td class="alternateRow1">0.0000</td></tr><td class="alternateRow">Apr 07, 2016</td><td class="alternateRow">$105.69</td><td class="alternateRow">0.0000</td></tr><td class="alternateRow1">Apr 06, 2016</td><td class="alternateRow1">$106.91</td><td class="alternateRow1">0.0000</td></tr><td class="alternateRow">Apr 05, 2016</td><td class="alternateRow">$107.08</td><td class="alternateRow">0.0000</td></tr><td class="alternateRow1">Apr 04, 2016</td><td class="alternateRow1">$107.84</td><td class="alternateRow1">0.0000</td></tr><td class="alternateRow">Apr 01, 2016</td><td class="alternateRow">$107.76</td><td class="alternateRow">0.0000</td></tr><td class="alternateRow1">Mar 31, 2016</td><td class="alternateRow1">$108.22</td><td class="alternateRow1">0.0000</td></tr><td class="alternateRow">Mar 30, 2016</td><td class="alternateRow">$108.12</td><td class="alternateRow">0.0000</td></tr><td class="alternateRow1">Mar 29, 2016</td><td class="alternateRow1">$107.31</td><td class="alternateRow1">0.0000</td></tr><td class="alternateRow">Mar 28, 2016</td><td class="alternateRow">$107.08</td><td class="alternateRow">0.0000</td></tr><td class="alternateRow1">Mar 24, 2016</td><td class="alternateRow1">$106.55</td><td class="alternateRow1">0.0000</td></tr><td class="alternateRow">Mar 23, 2016</td><td class="alternateRow">$107.62</td><td class="alternateRow">0.0000</td></tr><td class="alternateRow1">Mar 22, 2016</td><td class="alternateRow1">$107.75</td><td class="alternateRow1">0.0000</td></tr><td class="alternateRow">Mar 21, 2016</td><td class="alternateRow">$108.17</td><td class="alternateRow">0.0000</td></tr><td class="alternateRow1">Mar 18, 2016</td><td class="alternateRow1">$108.01</td><td class="alternateRow1">0.0000</td></tr><td class="alternateRow">Mar 17, 2016</td><td class="alternateRow">$108.70</td><td class="alternateRow">0.0000</td></tr><td class="alternateRow1">Mar 16, 2016</td><td class="alternateRow1">$106.88</td><td class="alternateRow1">0.0000</td></tr><td class="alternateRow">Mar 15, 2016</td><td class="alternateRow">$106.73</td><td class="alternateRow">0.0000</td></tr><td class="alternateRow1">Mar 14, 2016</td><td class="alternateRow1">$106.98</td><td class="alternateRow1">0.0000</td></tr><td class="alternateRow">Mar 11, 2016</td><td class="alternateRow">$107.00</td><td class="alternateRow">0.0000</td></tr><td class="alternateRow1">Mar 10, 2016</td><td class="alternateRow1">$105.45</td><td class="alternateRow1">0.0000</td></tr><td class="alternateRow">Mar 09, 2016</td><td class="alternateRow">$105.39</td><td class="alternateRow">0.0000</td></tr><td class="alternateRow1">Mar 08, 2016</td><td class="alternateRow1">$104.62</td><td class="alternateRow1">0.0000</td></tr><td class="alternateRow">Mar 07, 2016</td><td class="alternateRow">$104.91</td><td class="alternateRow">0.0000</td></tr><td class="alternateRow1">Mar 04, 2016</td><td class="alternateRow1">$103.93</td><td class="alternateRow1">0.0000</td></tr><td class="alternateRow">Mar 03, 2016</td><td class="alternateRow">$102.90</td><td class="alternateRow">0.0000</td></tr><td class="alternateRow1">Mar 02, 2016</td><td class="alternateRow1">$101.99</td><td class="alternateRow1">0.0000</td></tr><td class="alternateRow">Mar 01, 2016</td><td class="alternateRow">$102.27</td><td class="alternateRow">0.0000</td></tr><td class="alternateRow1">Feb 29, 2016</td><td class="alternateRow1">$100.75</td><td class="alternateRow1">0.0000</td></tr><td class="alternateRow">Feb 26, 2016</td><td class="alternateRow">$100.29</td><td class="alternateRow">0.0000</td></tr><td class="alternateRow1">Feb 25, 2016</td><td class="alternateRow1">$98.84</td><td class="alternateRow1">0.0000</td></tr><td class="alternateRow">Feb 24, 2016</td><td class="alternateRow">$98.61</td><td class="alternateRow">0.0000</td></tr><td class="alternateRow1">Feb 23, 2016</td><td class="alternateRow1">$99.13</td><td class="alternateRow1">0.0000</td></tr><td class="alternateRow">Feb 22, 2016</td><td class="alternateRow">$100.02</td><td class="alternateRow">0.0000</td></tr><td class="alternateRow1">Feb 19, 2016</td><td class="alternateRow1">$99.38</td><td class="alternateRow1">0.0000</td></tr><td class="alternateRow">Feb 18, 2016</td><td class="alternateRow">$100.20</td><td class="alternateRow">0.0000</td></tr><td class="alternateRow1">Feb 17, 2016</td><td class="alternateRow1">$100.00</td><td class="alternateRow1"></td></tr><td class="alternateRow">Feb 16, 2016</td><td class="alternateRow">$100.00</td><td class="alternateRow">0.0000</td></tr><td class="alternateRow1">Feb 12, 2016</td><td class="alternateRow1">$100.00</td><td class="alternateRow1">0.0000</td></tr><td class="alternateRow">Feb 11, 2016</td><td class="alternateRow">$100.00</td><td class="alternateRow">0.0000</td></tr><td class="alternateRow1">Feb 10, 2016</td><td class="alternateRow1">$100.00</td><td class="alternateRow1">0.0000</td></tr><td class="alternateRow">Feb 09, 2016</td><td class="alternateRow">$100.00</td><td class="alternateRow">0.0000</td></tr><td class="alternateRow1">Feb 08, 2016</td><td class="alternateRow1">$100.00</td><td class="alternateRow1">0.0000</td></tr><td class="alternateRow">Feb 05, 2016</td><td class="alternateRow">$100.00</td><td class="alternateRow">0.0000</td></tr><td class="alternateRow1">Feb 04, 2016</td><td class="alternateRow1">$100.00</td><td class="alternateRow1">0.0000</td></tr><td class="alternateRow">Feb 03, 2016</td><td class="alternateRow">$100.00</td><td class="alternateRow">0.0000</td></tr><td class="alternateRow1">Feb 02, 2016</td><td class="alternateRow1">$100.00</td><td class="alternateRow1">0.0000</td></tr><td class="alternateRow">Feb 01, 2016</td><td class="alternateRow">$100.00</td><td class="alternateRow">0.0000</td></tr><td class="alternateRow1">Jan 29, 2016</td><td class="alternateRow1">$100.00</td><td class="alternateRow1">0.0000</td></tr><td class="alternateRow">Jan 28, 2016</td><td class="alternateRow">$100.00</td><td class="alternateRow">0.0000</td></tr><td class="alternateRow1">Jan 27, 2016</td><td class="alternateRow1">$100.00</td><td class="alternateRow1">0.0000</td></tr><td class="alternateRow">Jan 26, 2016</td><td class="alternateRow">$100.00</td><td class="alternateRow">0.0000</td></tr><td class="alternateRow1">Jan 25, 2016</td><td class="alternateRow1">$100.00</td><td class="alternateRow1">0.0000</td></tr><td class="alternateRow">Jan 22, 2016</td><td class="alternateRow">$100.00</td><td class="alternateRow">0.0000</td></tr><td class="alternateRow1">Jan 21, 2016</td><td class="alternateRow1">$100.00</td><td class="alternateRow1">0.0000</td></tr><td class="alternateRow">Jan 20, 2016</td><td class="alternateRow">$100.00</td><td class="alternateRow">0.0000</td></tr><td class="alternateRow1">Jan 19, 2016</td><td class="alternateRow1">$100.00</td><td class="alternateRow1">0.0000</td></tr><td class="alternateRow">Jan 18, 2016</td><td class="alternateRow">$100.00</td><td class="alternateRow">0.0000</td></tr><td class="alternateRow1">Jan 15, 2016</td><td class="alternateRow1">$100.00</td><td class="alternateRow1">0.0000</td></tr><td class="alternateRow">Jan 14, 2016</td><td class="alternateRow">$100.00</td><td class="alternateRow">0.0000</td></tr><td class="alternateRow1">Jan 13, 2016</td><td class="alternateRow1">$100.00</td><td class="alternateRow1">0.0000</td></tr><td class="alternateRow">Jan 12, 2016</td><td class="alternateRow">$100.00</td><td class="alternateRow">0.0000</td></tr><td class="alternateRow1">Jan 11, 2016</td><td class="alternateRow1">$100.00</td><td class="alternateRow1">0.0000</td></tr></table>
+
+    </div>
+	<span>.</span>
+    <script>var v = {};</script><script src="//csvtr10.bmocm.com/bmocm/zig.js"></script>
+    <noscript><img src="//csvtr10.bmocm.com/bmocm/zag.gif?Log=1& " height="1" alt=""></noscript>
+  </body>
+</html>

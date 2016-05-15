@@ -29,17 +29,18 @@ task :find_notes => :environment do
     page = fetch_page(command, directory, id)
 
     html_doc = Nokogiri::HTML(page)
-    title = html_doc.xpath("//*[@class=\"title2\"]").first
+    title = html_doc.xpath("//*[@class=\"title2\"]").first.content rescue nil
     next unless title
     bid_price = html_doc.xpath("//*[contains(text(),'Current Bid Price')]/../td[2]").first.content rescue nil
     issue_date = html_doc.xpath("//*[contains(text(),'Issue Date:')]/../td[2]").first.content rescue nil
     note_name = html_doc.xpath("//*[@class=\"title3\"]").first.content rescue nil
     next unless note_name
-    puts "#{title.content} -> #{bid_price} [#{note_name}] [#{issue_date}]"
+    puts "#{title} -> #{bid_price} [#{note_name}] [#{issue_date}]"
 
-    note_name = note_name.scan(/[A-Z]{3}[0-9]+/).first
-    note = Note.find_or_initialize_by(name: note_name)
+    name = note_name.scan(/[A-Z]{3}[0-9]+/).first
+    note = Note.find_or_initialize_by(name: name)
     note.date = issue_date
+    note.full_name = title
     note.note_id = id
     note.save
   end
@@ -48,15 +49,15 @@ end
 task :find_returns => :environment do
   directory = setup_directory
   Note.all.each do |note|
-    command = "curl 'https://www.bmocm.com/investorsolutions/historical/?fundnum=#{note_name}&pro=PARN' -H 'Accept-Encoding: gzip, deflate, sdch' -H 'Accept-Language: en-US,en;q=0.8' -H 'Upgrade-Insecure-Requests: 1' -H 'User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_11_4) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/50.0.2661.94 Safari/537.36' -H 'Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8' -H 'Referer: https://www.bmocm.com/investorsolutions/principal-at-risk-notes/details/?id=2240' -H 'Cookie: referrer=undefined; ASP.NET_SessionId=1hcioq3wpkp035qojcpbamez' -H 'Connection: keep-alive' -H 'Cache-Control: max-age=0' --compressed"
-    fetch_page(command, directory, note_name)
+    command = "curl 'https://www.bmocm.com/investorsolutions/historical/?fundnum=#{note.name}&pro=PARN' -H 'Accept-Encoding: gzip, deflate, sdch' -H 'Accept-Language: en-US,en;q=0.8' -H 'Upgrade-Insecure-Requests: 1' -H 'User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_11_4) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/50.0.2661.94 Safari/537.36' -H 'Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8' -H 'Referer: https://www.bmocm.com/investorsolutions/principal-at-risk-notes/details/?id=2240' -H 'Cookie: referrer=undefined; ASP.NET_SessionId=1hcioq3wpkp035qojcpbamez' -H 'Connection: keep-alive' -H 'Cache-Control: max-age=0' --compressed"
+    page = fetch_page(command, directory, note.name)
     doc = Nokogiri::HTML(page)
-    csv = CSV.open("output.csv", 'w',{:col_sep => ",", :quote_char => '\''})
-
     doc.xpath('//table//td').to_a.each_slice(3) do |row|
-      csv << [Date.parse(row[0].text).to_s, row[1].text.gsub(/[^0-9\.]/,'').to_f]
+      date = Date.parse(row[0].text).to_s
+      value = row[1].text.gsub(/[^0-9\.]/,'').to_f
+      price = Value.find_or_initialize_by(note: note, date: date)
+      price.price = value
+      price.save
     end
-
-    csv.close
   end
 end
