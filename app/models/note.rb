@@ -1,6 +1,8 @@
 class Note < ActiveRecord::Base
   has_many :values
 
+  scope :q_model, -> { where("full_name REGEXP ?", 'US Q-Model') }
+
   def self.all_returns
     total_hash = Hash.new { |h, k| h[k] = [] }
 
@@ -14,14 +16,14 @@ class Note < ActiveRecord::Base
     total_hash
   end
 
-  def self.q_model
-    Note.includes(:values).all.each do |note|
-      next unless note.full_name =~ /US Q-Model/
-      note.quarterly_returns.to_s
-    end
+  # def self.q_model
+  #   Note.includes(:values).all.each do |note|
+  #     next unless note.full_name =~ /US Q-Model/
+  #     note.quarterly_returns.to_s
+  #   end
 
-    nil
-  end
+  #   nil
+  # end
 
   def returns
     totals = {}
