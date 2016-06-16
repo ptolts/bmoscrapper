@@ -1,7 +1,29 @@
+# == Schema Information
+#
+# Table name: notes
+#
+#  id         :integer          not null, primary key
+#  name       :text
+#  date       :date
+#  created_at :datetime         not null
+#  updated_at :datetime         not null
+#  note_id    :integer
+#  full_name  :text
+#
+
 class Note < ActiveRecord::Base
   has_many :values
 
-  scope :q_model, -> { where("full_name REGEXP ?", 'US Q-Model') }
+  scope :q_model, -> {
+                        includes(:values)
+                        .where("full_name iLIKE ?", '%US Q-Model%')
+                      }
+
+  def group_values_by_date
+    values.each_with_object({}) do |value, hash|
+      hash[value.date] = value.price
+    end
+  end
 
   def self.all_returns
     total_hash = Hash.new { |h, k| h[k] = [] }
