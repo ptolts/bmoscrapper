@@ -1,0 +1,3 @@
+<%= line_chart @notes.map { |note|
+    { name: note.name, data: note.group_values_by_date }
+}, width: "100%", height: "100%" %>
