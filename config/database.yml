@@ -27,4 +27,5 @@ test:
 
 production:
   <<: *default
+  url: postgres://phil:bmo_sucks_really_bad_for_investing@159.203.16.108:5432/production
   database: production
