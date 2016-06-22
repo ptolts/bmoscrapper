@@ -30,6 +30,7 @@ gem 'parallel'
 gem 'byebug'
 gem "chartkick"
 gem 'annotate'
+gem 'stock_quote'
 
 gem 'rails_12factor', group: :production
 

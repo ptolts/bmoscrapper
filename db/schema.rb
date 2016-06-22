@@ -11,7 +11,7 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 20160622152701) do
+ActiveRecord::Schema.define(version: 20160622185819) do
 
   # These are extensions that must be enabled in order to support this database
   enable_extension "plpgsql"
@@ -25,14 +25,23 @@ ActiveRecord::Schema.define(version: 20160622152701) do
     t.text     "full_name"
   end
 
+  create_table "stocks", force: :cascade do |t|
+    t.text     "name"
+    t.text     "symbol"
+    t.datetime "created_at", null: false
+    t.datetime "updated_at", null: false
+  end
+
   create_table "values", force: :cascade do |t|
     t.decimal  "price"
     t.date     "date"
     t.datetime "created_at", null: false
     t.datetime "updated_at", null: false
     t.integer  "note_id"
+    t.integer  "stock_id"
   end
 
   add_index "values", ["note_id"], name: "index_values_on_note_id", using: :btree
+  add_index "values", ["stock_id"], name: "index_values_on_stock_id", using: :btree
 
 end
