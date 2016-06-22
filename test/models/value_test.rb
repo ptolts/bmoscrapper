@@ -9,6 +9,10 @@
 #  updated_at :datetime         not null
 #  note_id    :integer
 #
+# Indexes
+#
+#  index_values_on_note_id  (note_id)
+#
 
 require 'test_helper'
 

@@ -16,7 +16,7 @@ class Note < ActiveRecord::Base
 
   scope :q_model, -> {
                         includes(:values)
-                        .where("full_name ~* ?", '.*U.?S.?\sQ\-Model.*')
+                        .where("full_name ~* ?", '.*U\.?S\.?\sQ\-Model.*')
                       }
 
   def group_values_by_date
