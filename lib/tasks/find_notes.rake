@@ -48,7 +48,7 @@ end
 
 task :find_returns => :environment do
   directory = setup_directory
-  Note.q_model.each do |note|
+  Note.q_model.where("name ~* '.*84.*'").each do |note|
     command = "curl 'https://www.bmocm.com/investorsolutions/historical/?fundnum=#{note.name}&pro=PARN' -H 'Accept-Encoding: gzip, deflate, sdch' -H 'Accept-Language: en-US,en;q=0.8' -H 'Upgrade-Insecure-Requests: 1' -H 'User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_11_4) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/50.0.2661.94 Safari/537.36' -H 'Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8' -H 'Referer: https://www.bmocm.com/investorsolutions/principal-at-risk-notes/details/?id=2240' -H 'Cookie: referrer=undefined; ASP.NET_SessionId=1hcioq3wpkp035qojcpbamez' -H 'Connection: keep-alive' -H 'Cache-Control: max-age=0' --compressed"
     page = fetch_page(command, directory, note.name)
     doc = Nokogiri::HTML(page)
