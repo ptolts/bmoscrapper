@@ -17,4 +17,6 @@
 class Value < ActiveRecord::Base
   belongs_to :note
   belongs_to :stock
+
+  default_scope -> { order(:date) }
 end

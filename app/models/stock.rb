@@ -2,10 +2,10 @@ class Stock < ActiveRecord::Base
   has_many :values
 
   def map_for_note(note)
-    starting_day = note.values.order(:date).first.date
+    starting_day = note.values.first.date
     starting_value = 100
     array = {}
-    values.where('date > ?', starting_day).order(:date).each_cons(2) do |yesterday, today|
+    values.where('date > ?', starting_day).each_cons(2) do |yesterday, today|
       change = ((today.price - yesterday.price) / yesterday.price)
       difference = starting_value * change
       starting_value = (starting_value + difference).round(5)
@@ -28,7 +28,7 @@ class Stock < ActiveRecord::Base
   end
 
   def earliest_date
-    values.order(:date).last.try(:date) || Value.order(:date).first.date
+    values.last.try(:date) || Value.first.date
   end
 
   private
