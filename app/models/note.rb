@@ -14,6 +14,8 @@
 class Note < ActiveRecord::Base
   has_many :values
 
+  validates :name, uniqueness: true
+
   scope :q_model, -> {
                         includes(:values)
                         .where("full_name ~* ?", '.*U\.?S\.?\sQ\-Model.*')
