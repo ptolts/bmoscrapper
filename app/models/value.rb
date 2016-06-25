@@ -8,10 +8,7 @@
 #  created_at :datetime         not null
 #  updated_at :datetime         not null
 #  note_id    :integer
-#
-# Indexes
-#
-#  index_values_on_note_id  (note_id)
+#  stock_id   :integer
 #
 
 class Value < ActiveRecord::Base

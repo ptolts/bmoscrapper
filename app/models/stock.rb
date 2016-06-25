@@ -1,3 +1,14 @@
+# == Schema Information
+#
+# Table name: stocks
+#
+#  id         :integer          not null, primary key
+#  name       :text
+#  symbol     :text
+#  created_at :datetime         not null
+#  updated_at :datetime         not null
+#
+
 class Stock < ActiveRecord::Base
   has_many :values
 

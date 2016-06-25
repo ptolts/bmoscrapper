@@ -63,4 +63,7 @@ task :find_returns => :environment do
       price.save
     end
   end
+  Stock.all.each do |stock|
+    Stock.create_stock(stock.symbol)
+  end
 end
