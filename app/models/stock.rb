@@ -11,6 +11,7 @@
 
 class Stock < ActiveRecord::Base
   has_many :values
+  has_many :holdings_stocks
 
   def map_for_note(note)
     starting_day = note.values.first.date

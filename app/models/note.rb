@@ -13,6 +13,7 @@
 
 class Note < ActiveRecord::Base
   has_many :values
+  has_many :holdings
 
   validates :name, uniqueness: true
 

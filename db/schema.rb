@@ -11,10 +11,22 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 20160622185819) do
+ActiveRecord::Schema.define(version: 20160803210848) do
 
   # These are extensions that must be enabled in order to support this database
   enable_extension "plpgsql"
+
+  create_table "holdings", force: :cascade do |t|
+    t.integer  "note_id"
+    t.date     "month"
+    t.datetime "created_at", null: false
+    t.datetime "updated_at", null: false
+  end
+
+  create_table "holdings_stocks", id: false, force: :cascade do |t|
+    t.integer "holding_id", null: false
+    t.integer "stock_id",   null: false
+  end
 
   create_table "notes", force: :cascade do |t|
     t.text     "name"
