@@ -15,6 +15,8 @@ class Note < ActiveRecord::Base
   has_many :values
   has_many :holdings
 
+  has_one :holding, -> { order('month desc') }, class_name: 'Holding'
+
   validates :name, uniqueness: true
 
   scope :q_model, -> {
