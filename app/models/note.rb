@@ -23,6 +23,7 @@ class Note < ActiveRecord::Base
                         includes(:values)
                         .where("full_name ~* ?", '.*U\.?S\.?\sQ\-Model.*')
                       }
+  scope :with_holdings, -> { includes(holding: { stocks: :values }) }
 
   def group_values_by_date
     values.each_with_object({}) do |value, hash|
@@ -43,14 +44,9 @@ class Note < ActiveRecord::Base
     total_hash
   end
 
-  # def self.q_model
-  #   Note.includes(:values).all.each do |note|
-  #     next unless note.full_name =~ /US Q-Model/
-  #     note.quarterly_returns.to_s
-  #   end
-
-  #   nil
-  # end
+  def first_date
+    values.first.date
+  end
 
   def returns
     totals = {}

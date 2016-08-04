@@ -31,12 +31,24 @@ class Stock < ActiveRecord::Base
     write_attribute(:symbol, val)
   end
 
+  def group_values_by_date(min_date = nil)
+    values.each_with_object({}) do |value, hash|
+      next if min_date and value.date < min_date
+      hash[value.date] = value.price
+    end
+  end
+
   def self.create_stock(symbol)
     stock = Stock.includes(:values).find_or_create_by(symbol: symbol)
 
     create_loop(stock.earliest_date) do |start_date, end_date|
       process(stock, StockQuote::Stock.quote(symbol, start_date, end_date))
+      sleep 5
     end
+  rescue
+    puts 'error fetchign stock'
+  ensure
+    return stock
   end
 
   def earliest_date
@@ -59,5 +71,7 @@ class Stock < ActiveRecord::Base
     quotes.each do |quote|
       Value.find_or_create_by(stock: stock, date: quote.date, price: quote.close)
     end
+  rescue
+    puts "problem with #{quotes}"
   end
 end

@@ -21,5 +21,6 @@ class HoldingTest < ActiveSupport::TestCase
     end
     assert_equal iterations, note.holdings.count
     assert_equal note.holding.nil?, false
+    assert_operator note.holding.stocks.count, :>, 0
   end
 end

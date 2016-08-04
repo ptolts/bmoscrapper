@@ -62,6 +62,7 @@ task :find_returns => :environment do
       price.price = value
       price.save
     end
+    FetchHoldings.fetch(note)
   end
   Stock.all.each do |stock|
     Stock.create_stock(stock.symbol)
