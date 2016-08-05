@@ -8,8 +8,8 @@ class FetchHoldings
       page = `#{command}`
       id = file_id(page)
       pdf_text = fetch_pdf_to_text(id)
-    rescue
-      puts 'opps'
+    rescue => e
+      puts e.to_s
     end
 
     def fetch_pdf_to_text(id)
