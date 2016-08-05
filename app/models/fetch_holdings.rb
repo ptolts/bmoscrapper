@@ -7,6 +7,7 @@ class FetchHoldings
       command = "curl 'https://www.bmocm.com/investorsolutions/principal-at-risk-notes/details/?id=#{note.note_id}' -H 'Accept-Encoding: gzip, deflate, sdch, br' -H 'Accept-Language: en-US,en;q=0.8' -H 'Upgrade-Insecure-Requests: 1' -H 'User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_11_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/51.0.2704.103 Safari/537.36' -H 'Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8' -H 'Cache-Control: max-age=0' -H 'Cookie: referrer=undefined' -H 'Connection: keep-alive' --compressed"
       page = `#{command}`
       id = file_id(page)
+      return unless file_id
       pdf_text = fetch_pdf_to_text(id)
     rescue => e
       puts e.to_s
@@ -26,7 +27,7 @@ class FetchHoldings
     end
 
     def file_id(page)
-      page.scan(/(?:(?:Investor Brochure).*?href=\".*?)(?<file_id>\d+)/).first.first.chomp
+      page.scan(/(?:(?:Investor Brochure).*?href=\".*?)(?<file_id>\d+)/).try(:first).try(:first).try(:chomp)
     end
 
     def create_holding_with_symbols(symbols)

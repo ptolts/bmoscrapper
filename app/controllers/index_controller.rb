@@ -11,7 +11,7 @@ class IndexController < ApplicationController
       { name: stock_name, data: Stock.find_by_symbol(stock_name).map_for_note(@note) }
     ]
 
-    @stocks = @note.holding.stocks.collect do |stock|
+    @stocks = (@note.holding.try(:stocks) || []).collect do |stock|
       { name: stock.symbol, data: stock.group_values_by_date(@note.first_date) }
     end
 
