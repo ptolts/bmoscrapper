@@ -33,6 +33,7 @@ class Stock < ActiveRecord::Base
 
   def group_values_by_date(min_date = nil)
     values.each_with_object({}) do |value, hash|
+      next unless min_date
       next if min_date and value.date < min_date
       hash[value.date] = value.price
     end
