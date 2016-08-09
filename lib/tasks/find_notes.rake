@@ -64,7 +64,7 @@ task :find_returns => :environment do
     end
     FetchHoldings.fetch(note)
   end
-  Stock.all.each do |stock|
+  Stock.where(symbol: 'SPY').each do |stock|
     Stock.create_stock(stock.symbol)
   end
 end
