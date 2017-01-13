@@ -48,7 +48,7 @@ class Stock < ActiveRecord::Base
       sleep 5
     end
   rescue
-    puts 'error fetchign stock'
+    puts "error fetching stock: #{symbol}, #{start_date}, #{end_date}"
   ensure
     return stock
   end
